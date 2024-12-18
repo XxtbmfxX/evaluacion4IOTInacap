@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckoutActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_resumen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resumen de la Compra"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+             />
+
+        <TextView
+            android:id="@+id/tv_codigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Código del producto:" />
+
+        <TextView
+            android:id="@+id/tv_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre del producto:" />
+
+        <TextView
+            android:id="@+id/tv_precio_unitario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precio unitario:" />
+
+        <TextView
+            android:id="@+id/tv_cantidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cantidad vendida:" />
+
+        <TextView
+            android:id="@+id/tv_precio_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total a pagar:" />
+
+        <Button
+            android:id="@+id/btn_volver_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volver a Inicio"
+            android:layout_gravity="center"
+             />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
